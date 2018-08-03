@@ -1,0 +1,13 @@
+.main_container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 910px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 30px #2a2f33;
+}
+.sub_menu{
+    background-image: url('http://www.vansontech.com/images/banners/lake_lower.jpg');
+    background-repeat:no-repeat;
+    height: 175px;
+}

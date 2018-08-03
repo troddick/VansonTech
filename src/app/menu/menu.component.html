@@ -1,0 +1,9 @@
+<nav>
+  <ul>
+    <li *ngFor="let item of _menuService.items">
+      <app-menu-item [item]="item" 
+                    [ngClass]="{'vertical-menu': !_screenService.isLarge()}">
+      </app-menu-item>
+    </li>
+  </ul>
+</nav>

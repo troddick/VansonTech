@@ -1,0 +1,9 @@
+<div class="menu-item" 
+      [routerLink]="item.route" 
+      routerLinkActive="router-link-active"
+      [ngClass]="{'vertical-menu': !_screenService.isLarge()}"
+      (click)="_menuService.showingLeftSideMenu=false">
+
+  <span class="fa {{item.icon}}"></span>
+  <span>{{item.text}}</span>
+</div>
