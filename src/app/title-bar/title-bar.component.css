@@ -6,6 +6,7 @@
     flex-grow: 1;
     display: flex;
     min-height: 80px;
+    background-repeat: round;
 }
 .menu-area {
     display:flex;
@@ -22,7 +23,7 @@
     flex-grow: 1;
 }
 .small-image {
-    height: 60px;
+    height: 65px;
 }
 span {
     margin-left: 10px;

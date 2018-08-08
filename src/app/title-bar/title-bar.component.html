@@ -3,10 +3,9 @@
   <div class="small-image-holder">
       <img class="small-image" src="http://www.vansontech.com/images/vansontech_logo.png" alt="Vanson Tech Inc.">
   </div>
-  <span class="fa fa-ellipsis-v"></span>
 </div>
 
-<div *screenLarge class="title-bar user-title-bar">
+  <div *screenLarge class="title-bar user-title-bar" [ngStyle]="{ 'background-image': 'url(http://www.vansontech.com/images/banners/' + currentTitleImg + '.jpg)' }">
   <img src="http://www.vansontech.com/images/vansontech_logo.png" alt="Vanson Tech Inc.">
   <div class="menu-area">
     <app-menu *ngIf="_screenService.isLarge()"></app-menu>
